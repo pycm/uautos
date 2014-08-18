@@ -1,0 +1,35 @@
+{
+    "name": "Frogio",
+    "author": "Rustem",
+    "version": "0.0.3",
+    "private": true,
+    "scripts": {
+        "start": "node app.js --mock-data",
+        "stop": "pkill -u `whoami` node"
+    },
+    "dependencies": {
+        "express": "3.1.0",
+        "express-partials": "~0.0.6",
+        "express-validator": "0.7.x",
+        "ejs": "~0.8.3",
+        "connect-flash": "0.1.1",
+        "underscore" : "~1.4.4",
+        "mongoose": "3.6.11",
+        "mongoose-validator": "0.2.x",
+        "mongoose-timestamp": "0.2.1",
+        "connect-mongo": "0.3.3",
+        "q": "~0.8.12",
+        "caterpillar": "~2.0.0",
+        "caterpillar-filter": "~2.0.0",
+        "caterpillar-human": "~2.0.0",
+        "lazy": "*",
+        "imagemagick": "0.1.3",
+        "mkdirp": "*",
+        "time": "0.9.x",
+        "crypto" : "*"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.x"
+    }
+}

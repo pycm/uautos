@@ -1,0 +1,15 @@
+добить ads + brand / model + остальные части ads
+permissions system
+files system
+locals, controllers
+
+User model
+View for user / ad
+News
+Salons
+Filter component -
+
+files generator - / более автоматизировать + mime / size / + юзать file module + стек / errors
+и вообще система файлов (привязка файла к объявлению / пользователю / etc + учесть это в генераторе)
+
+привести в порядок данные для ad view

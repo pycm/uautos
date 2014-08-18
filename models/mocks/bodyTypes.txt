@@ -1,0 +1,10 @@
+Седан|sedan|car
+Внедорожник/Кроссовер|crossover|car
+Минивэн|van|car
+Хэтчбек|hatchback|car
+Грузовик|truck|truck
+Автобус|bus|truck
+Тягач|tractor|truck
+Мотоцикл|motorcycle|moto
+Багги|buggy|moto
+Скутер|scooter|moto

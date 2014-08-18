@@ -1,0 +1,3 @@
+test@mail.ru|123456|Иван Иваныч|+380953457856
+my_mail@gmail.com|qwerty|Василий Петрович|+79823457894
+john_smit@mail.ru|john512|Jogn Smit|+380953456789

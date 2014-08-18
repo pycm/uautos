@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <% if (locals.keywords) { %>
+        <meta name="keywords" content="<%=locals.keywords%>">
+    <% } %>
+
+    <% if (locals.description) { %>
+        <meta name="description" content="<%=locals.description%>">
+    <% } %>
+
+    <title><%=locals.title || 'UAutos'%></title>
+
+    <link href="/favicon.ico" rel="icon">
+
+    <% if (locals.css && locals.css.length) css.forEach(function(filePath) { %>
+        <link rel="stylesheet" href="<%=filePath%>">
+    <% }); %>
+</head>
+
+<body <%-pageName ? 'class="page_type_' + pageName + '"' : ''%>>
+
+<%-body%>
+
+<% if (locals.js && locals.js.length) js.forEach(function(filePath) { %>
+<script type="text/javascript" src="<%=filePath%>"></script>
+<% }); %>
+
+<% include templates.html %>
+
+</body>
+
+</html>
