@@ -24,7 +24,7 @@ function runSingleThread() {
 
 /*
     TODO: run workers after death
-    TODO: add new features from 0.8.x
+    TODO: add new features from 0.8.x / 0.10.x
  */
 function runMultiThreads() {
     var i, pid,

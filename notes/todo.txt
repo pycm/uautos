@@ -8,3 +8,14 @@ Mocks:
   Тип контроллера должен быть просто отражен в названии: TestPageController (соглашение)
 - Переделать req, res, stor, env. Слишком много всего. req, res все же должны быть доступны во всех шагах
 - Возможность редиректа из шага validate + [234]
+
+------------------------------------------------------------------------------------------------------------------
+
+- Перейти на 0.10.x
+- todos in app.js (cluster improvements)
+- server.js | пройтись
+- logger пересмотреть еще раз
+- todos in init.js
+- express-validator + validators in local modules + mongoose-validator | заново
+- https://github.com/pkrumins/node-lazy | заново
+- errors
